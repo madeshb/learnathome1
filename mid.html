@@ -1,0 +1,60 @@
+<head>
+    
+    
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	<link rel="stylesheet" type="text/css" href="mid.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Learn At Home</title>
+</head>
+<body>
+    <div class="one" style="margin-top: 60px ;">
+        <button onclick="gotoLink2(this)" value="index.html" class="pink2">Back</button>
+        <script>
+           function gotoLink2(link){
+               console.log(link.value);
+               location.href="index.html";
+           };
+        </script>
+    </div>
+    <nav class="main-navbar">
+        <div>
+            <h2 style="color: blanchedalmond;">Learn At Home 🎓</h2>
+        </div>
+       
+        <div class="menu-btn">
+            <span></span>
+        </div>
+    </nav><br>
+    <div style="margin-top: 50px;">
+    <center>
+     <h1 style="color: red;font-style: inherit;">||| If you are new to the Learn At Home 🎓. Please Signup |||</h1>
+     <div>
+        <button onclick="gotoLink4(this)" value="signup.html" class="chill">Signup</button>
+        <script>
+           function gotoLink4(link){
+               console.log(link.value);
+               location.href="signup.html";
+           };
+        </script>
+     </div>
+     <h1 style="margin-top: 20px;color: red;font-style: inherit;">||| If you are already signedup to the Learn At Home 🎓.Please Login |||</h1>
+     <button onclick="gotoLink5(this)" value="login.html" class="chill1">Login</button>
+     <script>
+        function gotoLink5(link){
+            console.log(link.value);
+            location.href="login.html";
+        };
+     </script>
+    </center>
+    </div>
+</body>

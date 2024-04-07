@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+    
+}
+.main-navbar{
+	position: absolute;
+	width: 100%;
+	max-width: 1400px;
+	height: 12vh;
+	max-height: 80px;
+	background-color: blue;
+	padding: 0px 8%;
+	margin: 0px ;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 100;
+    left: 1px;
+    top: 2px;
+}
+button.chill{
+    color: black;
+	background-color: sandybrown;
+	padding: 15px;
+	font-size: 30px;
+	margin-top: 15px;
+	border-radius: 10px;
+	
+}
+button.chill1{
+    color: black;
+	background-color: sandybrown;
+	padding: 15px;
+	font-size: 30px;
+	margin-top: 15px;
+	border-radius: 10px;
+	
+}
+button.chill:hover{
+	
+	background-color: aliceblue;
+	color: blue;
+	border: 5px solid;
+}
+button.chill1:hover{
+	background-color: aliceblue;
+	color: blue;
+	
+	border: 5px solid;
+}
+button.pink1:hover{
+	border: 1px solid;
+	border-color: azure;
+
+}

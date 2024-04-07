@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="loginstyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="form.css">
+
+    
+    <!--  *****   Link To Custom CSS Style Sheet   *****  -->
+	
+
+	<!--  *****   Link To Font Awsome Icons   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
+	<!--  *****   Link To Owl Carousel   *****  -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Learn At Home</title>
+</head>
+<nav class="main-navbar">
+    <div>
+        <h2 style="color: blanchedalmond;">Learn At Home 🎓</h2>
+    </div>
+   
+    <div class="menu-btn">
+        <span></span>
+    </div>
+</nav><br>
+
+<form action="action_page.php" method="post" style="margin-top: 45px;">
+  <div class="container">
+    <h1 style="margin-left: 1px;font-size:30px;">Login</h1>
+    <p style="margin-top: 10px;">Please fill in this form to create an account.</p>
+    <hr>
+    
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="name" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="pink2">Login</button>
+    <label>
+    <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+    
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="pink2" onclick="gotoLink7(this)" value="mid.html">Cancel</button>
+    <script>
+        function gotoLink7(link){
+            console.log(link.value);
+            location.href="mid.html";
+        };
+    </script>
+
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
