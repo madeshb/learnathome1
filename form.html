@@ -1,0 +1,50 @@
+
+<head>
+   <link rel="stylesheet" type="text/css" href="form.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="stylesheet" type="text/css" href="mid.css">
+</head>
+<form action="action_page.php">
+  <nav class="main-navbar">
+        <div>
+            <h2 style="color: blanchedalmond;">Learn At Home 🎓</h2>
+        </div>
+       
+        <div class="menu-btn">
+            <span></span>
+        </div>
+  </nav><br>
+  <div class="one" style="margin-top: 60px ;">
+    <button onclick="gotoLink62(this)" value="index.html" class="pink2">Back</button>
+    <script>
+       function gotoLink62(link){
+           console.log(link.value);
+           location.href="index.html";
+       };
+    </script>
+</div>
+  <div class="container" style="margin-top: 5px ;">
+    <h1>Register To Join In Our Institution As A Instructor</h1>
+    <p>Please fill in this form</p>
+    <hr>
+
+    <label for="name" ><b>Name</b></label>
+    <input type="text" placeholder="Enter Your Name" name="name1" id="name1"  required>
+
+    <label for="gender"><b>Gender</b></label>
+    <input type="text" placeholder="Enter Your Gender" name="gender" id="gender"  required>
+
+    <label for="domain" ><b>Domain</b></label>
+    <input type="text" placeholder="Enter Your Domain" name="domain" id="domain"  required>
+
+    <label for="email" ><b>Email</b></label>
+    <input type="text" placeholder="Enter Your Email" name="email" id="email"   required>
+
+    <hr>
+
+    <p>By registering your reequest will reach us soon we will reply back soon !.</p>
+    <button type="submit" class="pink2" style="padding-left: 500px;padding-right: 500px;margin-top: 20px;margin-left: 90px;">Register</button>
+  </div>
+
+ 
+</form>
